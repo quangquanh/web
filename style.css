@@ -1,0 +1,84 @@
+
+html{
+	background-color: #ADD8E6;
+	font-size: 20px;
+	font-family: 'lato' san-serif;
+	font-weight: 2px;
+}
+header{
+	border-radius: 4px;
+	background-image: linear-gradient(45deg,rgba(151,255,255,0.9),rgba(220,220,220,0.8)),url(https://graphic.com.vn//uploads/product/photos/P4YRBC5/cover/w1200.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+.logo{
+	margin-left: 50px;
+	margin-top: 10px;
+    border-radius: 5px;
+}
+.clearfix{
+	content: " ";
+	display: table;
+	clear: both;
+}
+.slogan{
+	width: 1140px;
+	margin: 0 auto;
+}
+.menu{
+	margin: -230px 20px;
+	float: right;
+}
+.menu li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+}
+.menu li a:hover{
+ border-bottom: 2px solid;
+ padding: 5px 5px;
+ border-radius: 5px;
+ background-color:rgba(0,0,255,0.4) ;}
+form{
+	margin:-180px 25px;
+	float: right;
+}
+.text{
+	width: 450px;
+	height: 25px;
+	border-radius: 6px;
+
+}
+.button{
+	width: 60px;
+	height: 30px;
+	background-color:#00BFFF;
+	border: 1px blue solid;
+	color: white;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.content{
+	border-radius: 4px;
+	width:75%;
+	background-color: #7FFFD4;
+	color: black;	
+    margin: -15px auto ;
+    display: block;	
+    padding: 0px 20px;
+}
+
+.foot{
+	border-radius: 4px;
+	color: white;
+display: block;	
+padding: 0px 0px 0px 10px;
+background-color: #4682B4;
+font-family: 'oswald',san-serif ;
+height: 200px
+}
